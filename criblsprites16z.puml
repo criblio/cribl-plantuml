@@ -1,3 +1,5 @@
+@startuml
+
 sprite $AppScope [300x120/16z] {
 xC610000082W_QaNgG800000002ONJFRRXVcWVZ82zw7zt_QR_aJg21AAVJqAlbT9JwcbCbO5WDFI4WE2FCyaxtcw63omUS-ptC3qESLbeW37oIDUI42VjOK
 Zoy-k3fl301btj435Zv8dJK9aFb0zm3m8Sq7n1YRgtoKSlrP5W1ZFiA8DoVE1Xu8nd31MvDdYmwWMUE2zwNEDX5miy6GZrH7gFi63Tr7gYCP49fY2TwHCd-3
@@ -105,3 +107,5 @@ skinparam folderBackgroundColor<<CriblSearch>> White
 !define AppScope(_alias, _label, _shape) ENTITY(_shape,black,AppScope,_label, _alias,AppScope)
 !define AppScope(_alias, _label, _shape, _color) ENTITY(_shape,_color,AppScope,_label, _alias,AppScope)
 skinparam folderBackgroundColor<<AppScope>> White
+
+@enduml
