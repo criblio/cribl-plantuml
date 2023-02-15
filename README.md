@@ -43,4 +43,5 @@ CriblSearch(search, "Search Instance", cloud, blue)
 ```
 
 will generate the following:
+
 ![Cribl Search Image](images/search-example.png)
