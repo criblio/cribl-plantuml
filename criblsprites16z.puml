@@ -84,11 +84,11 @@ snffoMBA6-DJQShbcPdnFGxzkpqu80000440zFzrDrA1R00000000C01
 }
 
 
-!define CriblStream(_alias) ENTITY(rectangle,black,CriblStream,_alias,CriblStream)
-!define CriblStream(_alias, _label) ENTITY(rectangle,black,CriblStream,_label, _alias,CriblStream)
-!define CriblStream(_alias, _label, _shape) ENTITY(_shape,black,CriblStream,_label, _alias,CriblStream)
+!define CriblStream(_alias) ENTITY(rectangle,BORDER_COLOR,CriblStream,_alias,CriblStream)
+!define CriblStream(_alias, _label) ENTITY(rectangle,BORDER_COLOR,CriblStream,_label, _alias,CriblStream)
+!define CriblStream(_alias, _label, _shape) ENTITY(_shape,BORDER_COLOR,CriblStream,_label, _alias,CriblStream)
 !define CriblStream(_alias, _label, _shape, _color) ENTITY(_shape,_color,CriblStream,_label, _alias,CriblStream)
-skinparam folderBackgroundColor<<CriblStream>> White
+skinparam folderBackgroundColor<<CriblStream>> PrimaryColor
 
 !define CriblEdge(_alias) ENTITY(rectangle,black,CriblEdge,_alias,CriblEdge)
 !define CriblEdge(_alias, _label) ENTITY(rectangle,black,CriblEdge,_label, _alias,CriblEdge)
