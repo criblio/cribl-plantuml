@@ -27,5 +27,7 @@ hide stereotype
 !define CRIBL_BORDER_COLOR #008080
 !define CRIBL_FONT_COLOR #ffffff
 
+skinparam defaultTextAlignment center
+
 @enduml
 
