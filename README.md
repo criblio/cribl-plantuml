@@ -4,6 +4,26 @@ Plantuml Library for Cribl Products
 
 This repository contains an *experimental* library of Plantuml objects for including Cribl products and product components in your plantuml diagrams. 
 
+# Usage
+
+Best practice is to create a "variable" with the URL base, like this:
+
+```
+!define criblPuml https://raw.githubusercontent.com/criblio/cribl-plantuml/main
+```
+
+You'll also need to include common.puml to get the standard set of components needed:
+
+```
+!include criblPuml/common.puml
+```
+
+And then finally, include any of the other files:
+
+```
+!include criblPuml/product-logos.puml
+```
+
 # Files
 
 ### common.puml 
@@ -46,22 +66,3 @@ will generate the following:
 
 ![Cribl Search Image](images/search-example.png)
 
-# Usage
-
-Best practice is to create a "variable" with the URL base, like this:
-
-```
-!define criblPuml https://raw.githubusercontent.com/criblio/cribl-plantuml/main
-```
-
-You'll also need to include common.puml to get the standard set of components needed:
-
-```
-!include criblPuml/common.puml
-```
-
-And then finally, include any of the other files:
-
-```
-!include criblPuml/product-logos.puml
-```
