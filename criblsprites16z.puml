@@ -81,3 +81,27 @@ rigMUXTpgQKaXn69kUHeS7hPrnhnkPIIWnt3xQTZE2_u5pFkQBqNd73UFz5hmwl3BjxF71Zdpcyozz1o
 snffoMBA6-DJQShbcPdnFGxzkpqu80000440zFzrDrA1R00000000C01
 }
 
+
+!define CriblStream(_alias) ENTITY(rectangle,black,CriblStream,_alias,CriblStream)
+!define CriblStream(_alias, _label) ENTITY(rectangle,black,CriblStream,_label, _alias,CriblStream)
+!define CriblStream(_alias, _label, _shape) ENTITY(_shape,black,CriblStream,_label, _alias,CriblStream)
+!define CriblStream(_alias, _label, _shape, _color) ENTITY(_shape,_color,CriblStream,_label, _alias,CriblStream)
+skinparam folderBackgroundColor<<CriblStream>> White
+
+!define CriblEdge(_alias) ENTITY(rectangle,black,CriblEdge,_alias,CriblEdge)
+!define CriblEdge(_alias, _label) ENTITY(rectangle,black,CriblEdge,_label, _alias,CriblEdge)
+!define CriblEdge(_alias, _label, _shape) ENTITY(_shape,black,CriblEdge,_label, _alias,CriblEdge)
+!define CriblEdge(_alias, _label, _shape, _color) ENTITY(_shape,_color,CriblEdge,_label, _alias,CriblEdge)
+skinparam folderBackgroundColor<<CriblEdge>> White
+
+!define CriblSearch(_alias) ENTITY(rectangle,black,CriblSearch,_alias,CriblSearch)
+!define CriblSearch(_alias, _label) ENTITY(rectangle,black,CriblSearch,_label, _alias,CriblSearch)
+!define CriblSearch(_alias, _label, _shape) ENTITY(_shape,black,CriblSearch,_label, _alias,CriblSearch)
+!define CriblSearch(_alias, _label, _shape, _color) ENTITY(_shape,_color,CriblSearch,_label, _alias,CriblSearch)
+skinparam folderBackgroundColor<<CriblSearch>> White
+
+!define AppScope(_alias) ENTITY(rectangle,black,AppScope,_alias,AppScope)
+!define AppScope(_alias, _label) ENTITY(rectangle,black,AppScope,_label, _alias,AppScope)
+!define AppScope(_alias, _label, _shape) ENTITY(_shape,black,AppScope,_label, _alias,AppScope)
+!define AppScope(_alias, _label, _shape, _color) ENTITY(_shape,_color,AppScope,_label, _alias,AppScope)
+skinparam folderBackgroundColor<<AppScope>> White
