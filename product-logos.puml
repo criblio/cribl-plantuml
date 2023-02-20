@@ -108,4 +108,6 @@ skinparam folderBackgroundColor<<CriblSearch>> CRIBL_PRIMARY_COLOR
 !define AppScope(_alias, _label, _shape, _color) ENTITY(_shape,_color,AppScope,_label, _alias,AppScope)
 skinparam folderBackgroundColor<<AppScope>> CRIBL_PRIMARY_COLOR
 
+listsprites
+
 @enduml
