@@ -83,4 +83,4 @@ Sprites and Functions for the Logical Data Flow Shapes in the Cribl Stencil Set
 
 ## Sprites Available
 Here are all the sprites available. 
-![Available Sprites](images/README.puml)
+![Available Sprites](images/README.png)
