@@ -80,6 +80,46 @@ ViH68E8_SQB6zTSWelovCqRyUakU-zJLH1ko8Hko8Hko8HlI43OanrKWlWf45u4GYq1i4GYn24GMWHZM
 -CcR81IypMw649zItWbnV4vu7qGdVaLTJi55TWl4S9qgVgV-1
 }
 
-listsprites
+!define Parsers(_alias) ENTITY(rectangle,CRIBL_BORDER_COLOR,Parsers,_alias,Parsers)
+!define Parsers(_alias, _label) ENTITY(rectangle,CRIBL_BORDER_COLOR,Parsers,_label, _alias,Parsers)
+!define Parsers(_alias, _label, _shape) ENTITY(_shape,CRIBL_BORDER_COLOR,Parsers,_label, _alias,Parsers)
+!define Parsers(_alias, _label, _shape, _color) ENTITY(_shape,_color,Parsers,_label, _alias,Parsers)
+skinparam folderBackgroundColor<<Parsers>> CRIBL_PRIMARY_COLOR
+
+!define Lookups(_alias) ENTITY(rectangle,CRIBL_BORDER_COLOR,Lookups,_alias,Lookups)
+!define Lookups(_alias, _label) ENTITY(rectangle,CRIBL_BORDER_COLOR,Lookups,_label, _alias,Lookups)
+!define Lookups(_alias, _label, _shape) ENTITY(_shape,CRIBL_BORDER_COLOR,Lookups,_label, _alias,Lookups)
+!define Lookups(_alias, _label, _shape, _color) ENTITY(_shape,_color,Lookups,_label, _alias,Lookups)
+skinparam folderBackgroundColor<<Lookups>> CRIBL_PRIMARY_COLOR
+
+!define GlobalVari(_alias) ENTITY(rectangle,CRIBL_BORDER_COLOR,GlobalVari,_alias,GlobalVari)
+!define GlobalVari(_alias, _label) ENTITY(rectangle,CRIBL_BORDER_COLOR,GlobalVari,_label, _alias,GlobalVari)
+!define GlobalVari(_alias, _label, _shape) ENTITY(_shape,CRIBL_BORDER_COLOR,GlobalVari,_label, _alias,GlobalVari)
+!define GlobalVari(_alias, _label, _shape, _color) ENTITY(_shape,_color,GlobalVari,_label, _alias,GlobalVari)
+skinparam folderBackgroundColor<<GlobalVari>> CRIBL_PRIMARY_COLOR
+
+!define Schemas(_alias) ENTITY(rectangle,CRIBL_BORDER_COLOR,Schemas,_alias,Schemas)
+!define Schemas(_alias, _label) ENTITY(rectangle,CRIBL_BORDER_COLOR,Schemas,_label, _alias,Schemas)
+!define Schemas(_alias, _label, _shape) ENTITY(_shape,CRIBL_BORDER_COLOR,Schemas,_label, _alias,Schemas)
+!define Schemas(_alias, _label, _shape, _color) ENTITY(_shape,_color,Schemas,_label, _alias,Schemas)
+skinparam folderBackgroundColor<<Schemas>> CRIBL_PRIMARY_COLOR
+
+!define Regexes(_alias) ENTITY(rectangle,CRIBL_BORDER_COLOR,Regexes,_alias,Regexes)
+!define Regexes(_alias, _label) ENTITY(rectangle,CRIBL_BORDER_COLOR,Regexes,_label, _alias,Regexes)
+!define Regexes(_alias, _label, _shape) ENTITY(_shape,CRIBL_BORDER_COLOR,Regexes,_label, _alias,Regexes)
+!define Regexes(_alias, _label, _shape, _color) ENTITY(_shape,_color,Regexes,_label, _alias,Regexes)
+skinparam folderBackgroundColor<<Regexes>> CRIBL_PRIMARY_COLOR
+
+!define EventBreaker(_alias) ENTITY(rectangle,CRIBL_BORDER_COLOR,EventBreaker,_alias,EventBreaker)
+!define EventBreaker(_alias, _label) ENTITY(rectangle,CRIBL_BORDER_COLOR,EventBreaker,_label, _alias,EventBreaker)
+!define EventBreaker(_alias, _label, _shape) ENTITY(_shape,CRIBL_BORDER_COLOR,EventBreaker,_label, _alias,EventBreaker)
+!define EventBreaker(_alias, _label, _shape, _color) ENTITY(_shape,_color,EventBreaker,_label, _alias,EventBreaker)
+skinparam folderBackgroundColor<<EventBreaker>> CRIBL_PRIMARY_COLOR
+
+!define GrokPatterns(_alias) ENTITY(rectangle,CRIBL_BORDER_COLOR,GrokPatterns,_alias,GrokPatterns)
+!define GrokPatterns(_alias, _label) ENTITY(rectangle,CRIBL_BORDER_COLOR,GrokPatterns,_label, _alias,GrokPatterns)
+!define GrokPatterns(_alias, _label, _shape) ENTITY(_shape,CRIBL_BORDER_COLOR,GrokPatterns,_label, _alias,GrokPatterns)
+!define GrokPatterns(_alias, _label, _shape, _color) ENTITY(_shape,_color,GrokPatterns,_label, _alias,GrokPatterns)
+skinparam folderBackgroundColor<<GrokPatterns>> CRIBL_PRIMARY_COLOR
 
 @enduml

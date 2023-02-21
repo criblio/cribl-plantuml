@@ -77,7 +77,7 @@ x9ntt3HNUjHt_UvbxcEC-gcJFkDlJdhCPvpq7G
 
 
 
-sprite $icon_source [180x180/16z] {
+sprite $Source [180x180/16z] {
 xTm7Tkiu38LXr8lzhtXwHn8t1hwQXsy1rdzuA8kgyZ-nrbfhhRNMMckjjTPQQwsbAbTX7WdK7u0CD-6b7gWF8LmfWr5VGf1bE-eES66XRKgm3xPcFSJvYlcZ
 0_KubJSor3D2tYVgEIdlegWdWNvUT4avBu3y3K0mdrlopQL5NuH0vHtoazwqZtlidzrEb9nVnbZMRq2Kd2etQ2Gob6Okfmgpg0OcrBmNkt2pdgp2JT4FQkoo
 BuRP-UMI-ymmePSdaYqcBtROWOcXERldeYqfdvzTUCiEc2_Chh5el7ueqU4pB3-n_zLiD0wS7raTY1xUdDPeT1uv_c4oMiziosemEWujCtmm6cr3zD7QXfa_
@@ -86,6 +86,16 @@ pcFp6NNAZ_Y_CV__dAF7GKUz3jFh3NtKeVK6_xgEV_tCVvwovuDnOoSyaxpNDvJ_EbA7DZdeaoKkU5tK
 VdSC9lVjbGxypRyEhm-I3ITB73X5ncXot-dzbO66pF03rtmSmqziui0ZnEgPOJ96-oEv_ABQIFF31QCL5tWoz_RbyRp4bBxU_CXgKYyO3HTog0uXDrba6DNR
 ZlYwHmDjzbEyr-PwnqlsPD5LIDSRNp60C4Jty8pVP8Bf1UyOk3j5z18l-5_xvphQ-y1xz2H3hV9UXlbXdgyEOM1PTqkZ_ZeB_sTmB74ZE4tuM6Hz8iF8FqFr
 x-4DLxa2LJDJdOzTQwsrrbfhhRNMMckjjTPQFmC
+}
+
+sprite $Destination [180x180/16z] {
+xC610000082W_QaNgG800000061spWE9aHW4WY8C_F_5btEsPe-HoziVS1S56ALLO1zu4bUFHFKNgf3X1_i6gdzDvOdUdjL_1c57HJYh_mN4CI56_pELjlH4
+zMD0RUtLZoEDjQ6tg5mgihSfLwK5G-g2_4oXHlE482zeCAdS11hfwCie4rIVG5gWB92ElfYIA_FI-ewXxnvMJQ3v7w_-FuIWPT2OeFvOIf3CD2aOvMXSrkOG
+7gZUe4GzevnO9eQa0CkOD2fJXDcvt4z1QowsOEtgFlTed20FT3x-ar07kZR6CsW37LiT5j8UZRqE2-6VeUrsMEYc_-mfQS6eJql7XQan9Gt1hCzAbs1mfgLT
+i79bfLEmfy5AOpoTUUaIx13GqdPL2VBIELk4tfFI8KWELZhNDPXliFQaiOuYYSOX0mFEaXs_THXuGkTGEz_ETpuFhz_l_imh3pfxRB2dt12i1zcnFmyQHJ4w
+FsDIkLtah5yFngHol-x-nXfKxdpX_RgSK-vNsN_Mx_FhprDafvekEBSQIWvdbJkcps4XE8Tb0ns2ysws2brmhu1jqS4gOtvFCmNtPDX05waCnUOnAEKsoVqw
+CC-mKhJNLkdcMRr1tVT59-xbuhx_F94T_dpt-LEmWNpqOuyG9BD2Ml_YAWNAD10eAoAjVycRWYZJn83o_Uxuidafrp0GL1zDL3F0bW034UHO8hm4GTOa27nf
+oIACPKGHnZ8Sn9U6T0J-Bao4MF3vh4BOEXMFHFsWcsxhVCpy0sRhANZR7XmG0010C03htreBy6tZ00000000A
 }
 
 sprite $Function [180x180/16z] {
@@ -105,18 +115,8 @@ dSYvx1Pa7heV-Nve34wAE_BotIEYN_XuVcBrTsVEWpQyq-FUTti8-gtCo_jzmKlH7sHUtXxagxCUV1oJ
 s7YFT14RHeIu0VlELzkAFUOErt6DH3rGsE1s4xbv_9iT2E8LpQsItpG-iBxrCm
 }
 
-sprite $icon_destination [180x180/16z] {
-xC610000082W_QaNgG800000061spWE9aHW4WY8C_F_5btEsPe-HoziVS1S56ALLO1zu4bUFHFKNgf3X1_i6gdzDvOdUdjL_1c57HJYh_mN4CI56_pELjlH4
-zMD0RUtLZoEDjQ6tg5mgihSfLwK5G-g2_4oXHlE482zeCAdS11hfwCie4rIVG5gWB92ElfYIA_FI-ewXxnvMJQ3v7w_-FuIWPT2OeFvOIf3CD2aOvMXSrkOG
-7gZUe4GzevnO9eQa0CkOD2fJXDcvt4z1QowsOEtgFlTed20FT3x-ar07kZR6CsW37LiT5j8UZRqE2-6VeUrsMEYc_-mfQS6eJql7XQan9Gt1hCzAbs1mfgLT
-i79bfLEmfy5AOpoTUUaIx13GqdPL2VBIELk4tfFI8KWELZhNDPXliFQaiOuYYSOX0mFEaXs_THXuGkTGEz_ETpuFhz_l_imh3pfxRB2dt12i1zcnFmyQHJ4w
-FsDIkLtah5yFngHol-x-nXfKxdpX_RgSK-vNsN_Mx_FhprDafvekEBSQIWvdbJkcps4XE8Tb0ns2ysws2brmhu1jqS4gOtvFCmNtPDX05waCnUOnAEKsoVqw
-CC-mKhJNLkdcMRr1tVT59-xbuhx_F94T_dpt-LEmWNpqOuyG9BD2Ml_YAWNAD10eAoAjVycRWYZJn83o_Uxuidafrp0GL1zDL3F0bW034UHO8hm4GTOa27nf
-oIACPKGHnZ8Sn9U6T0J-Bao4MF3vh4BOEXMFHFsWcsxhVCpy0sRhANZR7XmG0010C03htreBy6tZ00000000A
-}
 
-
-sprite $Icon_Packs [180x180/16z] {
+sprite $Packs [180x180/16z] {
 xTn9cXin241XG0BT_yGPlMhPdrnHXI3d_TjChpsZSf2_3W000000002qzUu9UZEvX_d84qrku2DNg6pI6Dd2P4-CVA7b7nYpa0qs_ersoyqS6MwveSU3gwJe
 uy6s7nek3sdHNVvKs_YfzrwdVFkdbZn-RdDKRgQPPfffffbcLNj6PQRsaYOsznYl-9SEYyMOdTJiYn7qoWniESr-OPhhOy5JcdKiz2j3SAGqzsN6WSsZNhF_
 9yrX4o_VB9F-GSqqqqmppJJJJ3FDDDDCiqwyGZCpBESRTk0vaiGYGwkTrwtFEjkbEwNbD8lw-zycQh5u7AMTywkrvtJnMxzGhgUSrqmppJJJJBErb-pzTqBJ
@@ -140,7 +140,52 @@ G4UPw883dNkWsn1qI8AkJj692hfdGSSlw586dTMW6nnqi8EkUx0fuBKRm4O6s281cozUMmTi67cjAB39
 -EgCvhZOTly1
 }
 
+!define Route(_alias) ENTITY(rectangle,CRIBL_BORDER_COLOR,Route,_alias,Route)
+!define Route(_alias, _label) ENTITY(rectangle,CRIBL_BORDER_COLOR,Route,_label, _alias,Route)
+!define Route(_alias, _label, _shape) ENTITY(_shape,CRIBL_BORDER_COLOR,Route,_label, _alias,Route)
+!define Route(_alias, _label, _shape, _color) ENTITY(_shape,_color,Route,_label, _alias,Route)
+skinparam folderBackgroundColor<<Route>> CRIBL_PRIMARY_COLOR
 
-listsprites
+!define Pipeline(_alias) ENTITY(rectangle,CRIBL_BORDER_COLOR,Pipeline,_alias,Pipeline)
+!define Pipeline(_alias, _label) ENTITY(rectangle,CRIBL_BORDER_COLOR,Pipeline,_label, _alias,Pipeline)
+!define Pipeline(_alias, _label, _shape) ENTITY(_shape,CRIBL_BORDER_COLOR,Pipeline,_label, _alias,Pipeline)
+!define Pipeline(_alias, _label, _shape, _color) ENTITY(_shape,_color,Pipeline,_label, _alias,Pipeline)
+skinparam folderBackgroundColor<<Pipeline>> CRIBL_PRIMARY_COLOR
+
+!define Collector(_alias) ENTITY(rectangle,CRIBL_BORDER_COLOR,Collector,_alias,Collector)
+!define Collector(_alias, _label) ENTITY(rectangle,CRIBL_BORDER_COLOR,Collector,_label, _alias,Collector)
+!define Collector(_alias, _label, _shape) ENTITY(_shape,CRIBL_BORDER_COLOR,Collector,_label, _alias,Collector)
+!define Collector(_alias, _label, _shape, _color) ENTITY(_shape,_color,Collector,_label, _alias,Collector)
+skinparam folderBackgroundColor<<Collector>> CRIBL_PRIMARY_COLOR
+
+!define Source(_alias) ENTITY(rectangle,CRIBL_BORDER_COLOR,Source,_alias,Source)
+!define Source(_alias, _label) ENTITY(rectangle,CRIBL_BORDER_COLOR,Source,_label, _alias,Source)
+!define Source(_alias, _label, _shape) ENTITY(_shape,CRIBL_BORDER_COLOR,Source,_label, _alias,Source)
+!define Source(_alias, _label, _shape, _color) ENTITY(_shape,_color,Source,_label, _alias,Source)
+skinparam folderBackgroundColor<<Source>> CRIBL_PRIMARY_COLOR
+
+!define Destination(_alias) ENTITY(rectangle,CRIBL_BORDER_COLOR,Destination,_alias,Destination)
+!define Destination(_alias, _label) ENTITY(rectangle,CRIBL_BORDER_COLOR,Destination,_label, _alias,Destination)
+!define Destination(_alias, _label, _shape) ENTITY(_shape,CRIBL_BORDER_COLOR,Destination,_label, _alias,Destination)
+!define Destination(_alias, _label, _shape, _color) ENTITY(_shape,_color,Destination,_label, _alias,Destination)
+skinparam folderBackgroundColor<<Destination>> CRIBL_PRIMARY_COLOR
+
+!define Function(_alias) ENTITY(rectangle,CRIBL_BORDER_COLOR,Function,_alias,Function)
+!define Function(_alias, _label) ENTITY(rectangle,CRIBL_BORDER_COLOR,Function,_label, _alias,Function)
+!define Function(_alias, _label, _shape) ENTITY(_shape,CRIBL_BORDER_COLOR,Function,_label, _alias,Function)
+!define Function(_alias, _label, _shape, _color) ENTITY(_shape,_color,Function,_label, _alias,Function)
+skinparam folderBackgroundColor<<Function>> CRIBL_PRIMARY_COLOR
+
+!define Packs(_alias) ENTITY(rectangle,CRIBL_BORDER_COLOR,Packs,_alias,Packs)
+!define Packs(_alias, _label) ENTITY(rectangle,CRIBL_BORDER_COLOR,Packs,_label, _alias,Packs)
+!define Packs(_alias, _label, _shape) ENTITY(_shape,CRIBL_BORDER_COLOR,Packs,_label, _alias,Packs)
+!define Packs(_alias, _label, _shape, _color) ENTITY(_shape,_color,Packs,_label, _alias,Packs)
+skinparam folderBackgroundColor<<Packs>> CRIBL_PRIMARY_COLOR
+
+!define LoadBalancer(_alias) ENTITY(rectangle,CRIBL_BORDER_COLOR,LoadBalancer,_alias,LoadBalancer)
+!define LoadBalancer(_alias, _label) ENTITY(rectangle,CRIBL_BORDER_COLOR,LoadBalancer,_label, _alias,LoadBalancer)
+!define LoadBalancer(_alias, _label, _shape) ENTITY(_shape,CRIBL_BORDER_COLOR,LoadBalancer,_label, _alias,LoadBalancer)
+!define LoadBalancer(_alias, _label, _shape, _color) ENTITY(_shape,_color,LoadBalancer,_label, _alias,LoadBalancer)
+skinparam folderBackgroundColor<<LoadBalancer>> CRIBL_PRIMARY_COLOR
 
 @enduml

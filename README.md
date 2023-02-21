@@ -66,3 +66,17 @@ will generate the following:
 
 ![Cribl Search Image](images/search-example.png)
 
+
+
+### infrastructure-shapes.puml
+
+Sprites and Functions for the Infrastructure Shapes in the Cribl Stencil Set
+
+### knowledge-icons.puml
+
+Sprites and Functions for the Knowledge Icons in the Cribl Stencil Set
+
+### logical_data_flow_shapes.puml
+
+Sprites and Functions for the Logical Data Flow Shapes in the Cribl Stencil Set
+
