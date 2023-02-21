@@ -1,0 +1,12 @@
+@startuml
+!define criblPuml https://raw.githubusercontent.com/criblio/cribl-plantuml/main
+!include criblPuml/common.puml
+!include criblPuml/product-logos.puml
+!include criblPuml/activity-badges.puml
+!include criblPuml/infrastructure-shapes.puml
+!include criblPuml/knowledge-icons.puml
+!include criblPuml/logical_data_flow_shapes.puml
+
+listsprites
+
+@enduml

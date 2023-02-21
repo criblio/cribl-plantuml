@@ -30,7 +30,7 @@ And then finally, include any of the other files:
 sets up a few common items that will be used by the other files. 
 
 ### activity-badges.puml
-A convenience library of numbered meatballs for showing order of operation in non-activity diagrams. 
+A convenience library of numbered meatball sprites and functions for showing order of operation in non-activity diagrams. 
 
 ### product-logos.puml
 Sprites and "Functions" for each of the Cribl Products:
@@ -80,3 +80,7 @@ Sprites and Functions for the Knowledge Icons in the Cribl Stencil Set
 
 Sprites and Functions for the Logical Data Flow Shapes in the Cribl Stencil Set
 
+
+## Sprites Available
+Here are all the sprites available. 
+![Available Sprites](images/README.puml)
