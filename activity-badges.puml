@@ -81,54 +81,54 @@ soEobsJFoTwKFInxtVV4xvtVOxyNVy_-tlv_mFuL
 !define Activity1(_alias, _label) ENTITY(rectangle,CRIBL_BORDER_COLOR,Activity1,_label, _alias,Activity1)
 !define Activity1(_alias, _label, _shape) ENTITY(_shape,CRIBL_BORDER_COLOR,Activity1,_label, _alias,Activity1)
 !define Activity1(_alias, _label, _shape, _color) ENTITY(_shape,_color,Activity1,_label, _alias,Activity1)
-skinparam folderBackgroundColor<<Activity1>> CRIBL_PRIMARY_COLOR
+'skinparam rectangleBackgroundColor<<Activity1>> CRIBL_PRIMARY_COLOR
 
 !define Activity2(_alias) ENTITY(rectangle,CRIBL_BORDER_COLOR,Activity2,_alias,Activity2)
 !define Activity2(_alias, _label) ENTITY(rectangle,CRIBL_BORDER_COLOR,Activity2,_label, _alias,Activity2)
 !define Activity2(_alias, _label, _shape) ENTITY(_shape,CRIBL_BORDER_COLOR,Activity2,_label, _alias,Activity2)
 !define Activity2(_alias, _label, _shape, _color) ENTITY(_shape,_color,Activity2,_label, _alias,Activity2)
-skinparam folderBackgroundColor<<Activity2>> CRIBL_PRIMARY_COLOR
+'skinparam rectangleBackgroundColor<<Activity2>> CRIBL_PRIMARY_COLOR
 
 !define Activity3(_alias) ENTITY(rectangle,CRIBL_BORDER_COLOR,Activity3,_alias,Activity3)
 !define Activity3(_alias, _label) ENTITY(rectangle,CRIBL_BORDER_COLOR,Activity3,_label, _alias,Activity3)
 !define Activity3(_alias, _label, _shape) ENTITY(_shape,CRIBL_BORDER_COLOR,Activity3,_label, _alias,Activity3)
 !define Activity3(_alias, _label, _shape, _color) ENTITY(_shape,_color,Activity3,_label, _alias,Activity3)
-skinparam folderBackgroundColor<<Activity3>> CRIBL_PRIMARY_COLOR
+'skinparam rectangleBackgroundColor<<Activity3>> CRIBL_PRIMARY_COLOR
 
 !define Activity4(_alias) ENTITY(rectangle,CRIBL_BORDER_COLOR,Activity4,_alias,Activity4)
 !define Activity4(_alias, _label) ENTITY(rectangle,CRIBL_BORDER_COLOR,Activity4,_label, _alias,Activity4)
 !define Activity4(_alias, _label, _shape) ENTITY(_shape,CRIBL_BORDER_COLOR,Activity4,_label, _alias,Activity4)
 !define Activity4(_alias, _label, _shape, _color) ENTITY(_shape,_color,Activity4,_label, _alias,Activity4)
-skinparam folderBackgroundColor<<Activity4>> CRIBL_PRIMARY_COLOR
+'skinparam rectangleBackgroundColor<<Activity4>> CRIBL_PRIMARY_COLOR
 
 !define Activity5(_alias) ENTITY(rectangle,CRIBL_BORDER_COLOR,Activity5,_alias,Activity5)
 !define Activity5(_alias, _label) ENTITY(rectangle,CRIBL_BORDER_COLOR,Activity5,_label, _alias,Activity5)
 !define Activity5(_alias, _label, _shape) ENTITY(_shape,CRIBL_BORDER_COLOR,Activity5,_label, _alias,Activity5)
 !define Activity5(_alias, _label, _shape, _color) ENTITY(_shape,_color,Activity5,_label, _alias,Activity5)
-skinparam folderBackgroundColor<<Activity5>> CRIBL_PRIMARY_COLOR
+'skinparam rectangleBackgroundColor<<Activity5>> CRIBL_PRIMARY_COLOR
 
 !define Activity6(_alias) ENTITY(rectangle,CRIBL_BORDER_COLOR,Activity6,_alias,Activity6)
 !define Activity6(_alias, _label) ENTITY(rectangle,CRIBL_BORDER_COLOR,Activity6,_label, _alias,Activity6)
 !define Activity6(_alias, _label, _shape) ENTITY(_shape,CRIBL_BORDER_COLOR,Activity6,_label, _alias,Activity6)
 !define Activity6(_alias, _label, _shape, _color) ENTITY(_shape,_color,Activity6,_label, _alias,Activity6)
-skinparam folderBackgroundColor<<Activity6>> CRIBL_PRIMARY_COLOR
+'skinparam rectangleBackgroundColor<<Activity6>> CRIBL_PRIMARY_COLOR
 
 !define Activity7(_alias) ENTITY(rectangle,CRIBL_BORDER_COLOR,Activity7,_alias,Activity7)
 !define Activity7(_alias, _label) ENTITY(rectangle,CRIBL_BORDER_COLOR,Activity7,_label, _alias,Activity7)
 !define Activity7(_alias, _label, _shape) ENTITY(_shape,CRIBL_BORDER_COLOR,Activity7,_label, _alias,Activity7)
 !define Activity7(_alias, _label, _shape, _color) ENTITY(_shape,_color,Activity7,_label, _alias,Activity7)
-skinparam folderBackgroundColor<<Activity7>> CRIBL_PRIMARY_COLOR
+'skinparam rectangleBackgroundColor<<Activity7>> CRIBL_PRIMARY_COLOR
 
 !define Activity8(_alias) ENTITY(rectangle,CRIBL_BORDER_COLOR,Activity8,_alias,Activity8)
 !define Activity8(_alias, _label) ENTITY(rectangle,CRIBL_BORDER_COLOR,Activity8,_label, _alias,Activity8)
 !define Activity8(_alias, _label, _shape) ENTITY(_shape,CRIBL_BORDER_COLOR,Activity8,_label, _alias,Activity8)
 !define Activity8(_alias, _label, _shape, _color) ENTITY(_shape,_color,Activity8,_label, _alias,Activity8)
-skinparam folderBackgroundColor<<Activity8>> CRIBL_PRIMARY_COLOR
+''skinparam rectangleBackgroundColor<<Activity8>> CRIBL_PRIMARY_COLOR
 
 !define Activity9(_alias) ENTITY(rectangle,CRIBL_BORDER_COLOR,Activity9,_alias,Activity9)
 !define Activity9(_alias, _label) ENTITY(rectangle,CRIBL_BORDER_COLOR,Activity9,_label, _alias,Activity9)
 !define Activity9(_alias, _label, _shape) ENTITY(_shape,CRIBL_BORDER_COLOR,Activity9,_label, _alias,Activity9)
 !define Activity9(_alias, _label, _shape, _color) ENTITY(_shape,_color,Activity9,_label, _alias,Activity9)
-skinparam folderBackgroundColor<<Activity9>> CRIBL_PRIMARY_COLOR
+''skinparam rectangleBackgroundColor<<Activity9>> CRIBL_PRIMARY_COLOR
 
 @enduml

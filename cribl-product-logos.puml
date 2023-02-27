@@ -60,20 +60,20 @@ VxRE6QXVHG5N-_VMdHC5dQF_uES0F0CQgwjyydCPYJLu7ogBuZqiRl_6Sp8MbxNaOEz_RcdjpotzFqpJ
 !define AppScope(_alias, _label) ENTITY(rectangle,CRIBL_BORDER_COLOR,AppScope,_label, _alias,AppScope)
 !define AppScope(_alias, _label, _shape) ENTITY(_shape,CRIBL_BORDER_COLOR,AppScope,_label, _alias,AppScope)
 !define AppScope(_alias, _label, _shape, _color) ENTITY(_shape,_color,AppScope,_label, _alias,AppScope)
-skinparam folderBackgroundColor<<AppScope>> CRIBL_PRIMARY_COLOR
+'skinparam folderBackgroundColor<<AppScope>> CRIBL_PRIMARY_COLOR
 !define CriblSearch(_alias) ENTITY(rectangle,CRIBL_BORDER_COLOR,CriblSearch,_alias,CriblSearch)
 !define CriblSearch(_alias, _label) ENTITY(rectangle,CRIBL_BORDER_COLOR,CriblSearch,_label, _alias,CriblSearch)
 !define CriblSearch(_alias, _label, _shape) ENTITY(_shape,CRIBL_BORDER_COLOR,CriblSearch,_label, _alias,CriblSearch)
 !define CriblSearch(_alias, _label, _shape, _color) ENTITY(_shape,_color,CriblSearch,_label, _alias,CriblSearch)
-skinparam folderBackgroundColor<<CriblSearch>> CRIBL_PRIMARY_COLOR
+'skinparam folderBackgroundColor<<CriblSearch>> CRIBL_PRIMARY_COLOR
 !define CriblStream(_alias) ENTITY(rectangle,CRIBL_BORDER_COLOR,CriblStream,_alias,CriblStream)
 !define CriblStream(_alias, _label) ENTITY(rectangle,CRIBL_BORDER_COLOR,CriblStream,_label, _alias,CriblStream)
 !define CriblStream(_alias, _label, _shape) ENTITY(_shape,CRIBL_BORDER_COLOR,CriblStream,_label, _alias,CriblStream)
 !define CriblStream(_alias, _label, _shape, _color) ENTITY(_shape,_color,CriblStream,_label, _alias,CriblStream)
-skinparam folderBackgroundColor<<CriblStream>> CRIBL_PRIMARY_COLOR
+'skinparam folderBackgroundColor<<CriblStream>> CRIBL_PRIMARY_COLOR
 !define CriblEdge(_alias) ENTITY(rectangle,CRIBL_BORDER_COLOR,CriblEdge,_alias,CriblEdge)
 !define CriblEdge(_alias, _label) ENTITY(rectangle,CRIBL_BORDER_COLOR,CriblEdge,_label, _alias,CriblEdge)
 !define CriblEdge(_alias, _label, _shape) ENTITY(_shape,CRIBL_BORDER_COLOR,CriblEdge,_label, _alias,CriblEdge)
 !define CriblEdge(_alias, _label, _shape, _color) ENTITY(_shape,_color,CriblEdge,_label, _alias,CriblEdge)
-skinparam folderBackgroundColor<<CriblEdge>> CRIBL_PRIMARY_COLOR
+'skinparam folderBackgroundColor<<CriblEdge>> CRIBL_PRIMARY_COLOR
 @enduml

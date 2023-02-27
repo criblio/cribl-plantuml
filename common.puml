@@ -28,6 +28,7 @@ hide stereotype
 !define CRIBL_FONT_COLOR #ffffff
 
 skinparam defaultTextAlignment center
+skinparam defaultBackgroundColor white
 
 @enduml
 
