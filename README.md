@@ -32,7 +32,7 @@ sets up a few common items that will be used by the other files.
 ### activity-badges.puml
 A convenience library of numbered meatball sprites and functions for showing order of operation in non-activity diagrams. 
 
-### product-logos.puml
+### cribl-product-logos.puml
 Sprites and "Functions" for each of the Cribl Products:
 
 * Stream (CriblStream)
@@ -71,10 +71,6 @@ will generate the following:
 ### infrastructure-shapes.puml
 
 Sprites and Functions for the Infrastructure Shapes in the Cribl Stencil Set
-
-### knowledge-icons.puml
-
-Sprites and Functions for the Knowledge Icons in the Cribl Stencil Set
 
 ### logical_data_flow_shapes.puml
 
