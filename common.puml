@@ -29,6 +29,7 @@ hide stereotype
 
 skinparam defaultTextAlignment center
 skinparam defaultBackgroundColor white
+skinparam BackgroundColor white
 
 @enduml
 
