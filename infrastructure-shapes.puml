@@ -25,19 +25,19 @@ m0WM2EsasH3Wp_iovMLUXiyUOp1vUiRh6KunWckBZ7KIOyMmc4tIIhhFm3Agc41r8mbWvPPr8fFaFfEa
 BhEkN9cAToQuOVhbtM6sJMet8pD664b7SeS180AuD5BBqJiJI0AZOVNEpClnl_g7vR_wdFOoByCZ3F2C0jwC27m7
 }
 
-!define WorkerNode(_alias) ENTITY(rectangle,CRIBL_BORDER_COLOR,WorkerNode,_alias,WorkerNode)
-!define WorkerNode(_alias, _label) ENTITY(rectangle,CRIBL_BORDER_COLOR,WorkerNode,_label, _alias,WorkerNode)
-!define WorkerNode(_alias, _label, _shape) ENTITY(_shape,CRIBL_BORDER_COLOR,WorkerNode,_label, _alias,WorkerNode)
+!define WorkerNode(_alias) ENTITY(rectangle,CRIBL_PRIMARY_COLOR,WorkerNode,_alias,WorkerNode)
+!define WorkerNode(_alias, _label) ENTITY(rectangle,CRIBL_PRIMARY_COLOR,WorkerNode,_label, _alias,WorkerNode)
+!define WorkerNode(_alias, _label, _shape) ENTITY(_shape,CRIBL_PRIMARY_COLOR,WorkerNode,_label, _alias,WorkerNode)
 !define WorkerNode(_alias, _label, _shape, _color) ENTITY(_shape,_color,WorkerNode,_label, _alias,WorkerNode)
 'skinparam folderBackgroundColor<<WorkerNode>> CRIBL_PRIMARY_COLOR
-!define WorkerGroup(_alias) ENTITY(rectangle,CRIBL_BORDER_COLOR,WorkerGroup,_alias,WorkerGroup)
-!define WorkerGroup(_alias, _label) ENTITY(rectangle,CRIBL_BORDER_COLOR,WorkerGroup,_label, _alias,WorkerGroup)
-!define WorkerGroup(_alias, _label, _shape) ENTITY(_shape,CRIBL_BORDER_COLOR,WorkerGroup,_label, _alias,WorkerGroup)
+!define WorkerGroup(_alias) ENTITY(rectangle,CRIBL_PRIMARY_COLOR,WorkerGroup,_alias,WorkerGroup)
+!define WorkerGroup(_alias, _label) ENTITY(rectangle,CRIBL_PRIMARY_COLOR,WorkerGroup,_label, _alias,WorkerGroup)
+!define WorkerGroup(_alias, _label, _shape) ENTITY(_shape,CRIBL_PRIMARY_COLOR,WorkerGroup,_label, _alias,WorkerGroup)
 !define WorkerGroup(_alias, _label, _shape, _color) ENTITY(_shape,_color,WorkerGroup,_label, _alias,WorkerGroup)
 'skinparam folderBackgroundColor<<WorkerGroup>> CRIBL_PRIMARY_COLOR
-!define LeaderNode(_alias) ENTITY(rectangle,CRIBL_BORDER_COLOR,LeaderNode,_alias,LeaderNode)
-!define LeaderNode(_alias, _label) ENTITY(rectangle,CRIBL_BORDER_COLOR,LeaderNode,_label, _alias,LeaderNode)
-!define LeaderNode(_alias, _label, _shape) ENTITY(_shape,CRIBL_BORDER_COLOR,LeaderNode,_label, _alias,LeaderNode)
+!define LeaderNode(_alias) ENTITY(rectangle,CRIBL_PRIMARY_COLOR,LeaderNode,_alias,LeaderNode)
+!define LeaderNode(_alias, _label) ENTITY(rectangle,CRIBL_PRIMARY_COLOR,LeaderNode,_label, _alias,LeaderNode)
+!define LeaderNode(_alias, _label, _shape) ENTITY(_shape,CRIBL_PRIMARY_COLOR,LeaderNode,_label, _alias,LeaderNode)
 !define LeaderNode(_alias, _label, _shape, _color) ENTITY(_shape,_color,LeaderNode,_label, _alias,LeaderNode)
 'skinparam folderBackgroundColor<<LeaderNode>> CRIBL_PRIMARY_COLOR
 @enduml
